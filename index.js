@@ -13,7 +13,7 @@ class LightningClient extends EventEmitter {
             throw new Error('The rpcPath must be an absolute path');
         }
 
-        rpcPath = path.join(rpcPath, '/lightning-rpc');
+        rpcPath = path.join(rpcPath, '/chipsln-rpc');
 
         debug(`Connecting to ${rpcPath}`);
 
